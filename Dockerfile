@@ -1,2 +1,2 @@
 FROM tomcat:latest
-COPY target/ShoppingCart*.war /usr/local/tomcat/webapps/ShoppingCart
+COPY /var/lib/jenkins/workspace/java-project/ShoppingCart*.war /usr/local/tomcat/webapps/ShoppingCart
